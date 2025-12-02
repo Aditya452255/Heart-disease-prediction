@@ -1,3 +1,5 @@
+Deployes link (https://heart-disease-prediction-l69z.onrender.com/)
+
 Heart Disease Streamlit App
 
 This repository contains a Streamlit app (`web.py`) for predicting heart disease risk using a saved KNN model and preprocessor files.
