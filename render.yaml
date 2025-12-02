@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: heart-disease
+    env: python
+    repo: https://github.com/Aditya452255/Heart-disease-prediction
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run web.py --server.port $PORT --server.headless true
+    autoDeploy: true
